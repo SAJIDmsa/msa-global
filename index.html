@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090909">
+<title>MSA GLOBAL | All You Need • One Place</title>
+<style>
+:root{--bg:#080808;--panel:#141414;--gold:#e7bd59;--gold2:#f8df91;--muted:#b8b8b8;--line:#302719}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:#fff;font-family:Arial,Helvetica,sans-serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:5;background:#090909ed;border-bottom:1px solid #302719;backdrop-filter:blur(12px)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:15px 0}.brand{font-weight:900;letter-spacing:2px;font-size:22px;color:var(--gold)}.brand small{display:block;font-size:10px;letter-spacing:5px;color:white;text-align:center;margin-top:3px}
+nav{display:flex;gap:20px;font-size:13px;color:#ddd}nav a:hover{color:var(--gold)}
+.hero{padding:64px 0 55px;background:radial-gradient(ellipse at 50% 0%,#4b3515 0%,#171109 34%,#080808 72%);text-align:center;border-bottom:1px solid var(--line)}
+.eyebrow{color:var(--gold);letter-spacing:4px;font-size:11px;font-weight:bold}.hero h1{font-size:clamp(42px,9vw,84px);line-height:.98;letter-spacing:3px;margin:18px 0 10px}.hero h1 span{color:var(--gold)}.hero p{color:#ddd;max-width:560px;margin:16px auto 24px;line-height:1.7}.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:6px;font-weight:bold;font-size:13px;cursor:pointer;border:1px solid var(--gold);background:var(--gold);color:#111}.btn.secondary{background:transparent;color:var(--gold)}.btn:hover{filter:brightness(1.08)}
+.trust{display:flex;justify-content:center;gap:22px;flex-wrap:wrap;margin-top:28px;color:#cfcfcf;font-size:12px}.trust span:before{content:"✦";color:var(--gold);margin-right:7px}
+section{padding:48px 0}.section-head{text-align:center;margin-bottom:25px}.section-head h2{margin:0 0 9px;font-size:28px}.section-head p{margin:0;color:var(--muted);font-size:13px}.gold{color:var(--gold)}
+.searchrow{display:flex;gap:10px;max-width:620px;margin:0 auto 22px}.searchrow input{flex:1;min-width:0;background:#121212;border:1px solid #3c3427;border-radius:7px;padding:13px;color:#fff;font-size:14px;outline:none}.searchrow input:focus{border-color:var(--gold)}
+.filters{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-bottom:25px}.filter{background:#121212;color:#ddd;border:1px solid #3b3326;padding:9px 13px;border-radius:20px;font-size:12px;cursor:pointer}.filter.active,.filter:hover{background:var(--gold);color:#111;border-color:var(--gold)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.product{background:linear-gradient(160deg,#191919,#0f0f0f);border:1px solid #302719;border-radius:10px;overflow:hidden;transition:transform .2s,border-color .2s}.product:hover{transform:translateY(-3px);border-color:#8b6c30}.pimg{height:155px;display:grid;place-items:center;background:radial-gradient(circle,#302718,#151515 65%);font-size:48px}.pbody{padding:14px}.tag{font-size:10px;color:var(--gold);letter-spacing:1px;text-transform:uppercase}.pbody h3{font-size:15px;margin:7px 0}.price{font-weight:bold;color:var(--gold2);margin:8px 0 13px}.pbody .btn{width:100%;padding:10px;font-size:12px}.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:28px}
+.about{background:#101010;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.aboutbox{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center}.about h2{font-size:30px;margin:0 0 12px}.about p{color:#c5c5c5;line-height:1.8;font-size:14px}.promise{display:grid;grid-template-columns:1fr 1fr;gap:12px}.promise div{padding:18px;border:1px solid #3b3020;border-radius:8px;background:#15130f}.promise b{display:block;color:var(--gold);margin-bottom:7px}.promise small{color:#bbb;line-height:1.5}
+.contact{text-align:center}.contact p{color:var(--muted);line-height:1.7}.notice{font-size:12px;color:#a9a9a9;margin-top:15px}
+footer{border-top:1px solid var(--line);padding:23px 0;color:#999;font-size:12px}.foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:760px){nav{gap:12px;font-size:12px}.grid{grid-template-columns:repeat(2,1fr);gap:10px}.pimg{height:125px}.aboutbox{grid-template-columns:1fr}.hero{padding:48px 0}.trust{gap:12px}.section-head h2{font-size:25px}}
+@media(max-width:420px){.brand{font-size:18px}nav{gap:9px}.nav{gap:8px}.btn{padding:12px 14px}.pbody{padding:11px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#">MSA GLOBAL<small>ALL YOU NEED • ONE PLACE</small></a>
+<nav><a href="#products">Products</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</div></header>
+<main>
+<section class="hero"><div class="wrap">
+<div class="eyebrow">WELCOME TO MSA GLOBAL</div>
+<h1>SHOP <span>SMARTER.</span><br>LIVE BETTER.</h1>
+<p>Your all-in-one shopping destination. Explore everyday essentials, fashion, gadgets and more — all in one place.</p>
+<a class="btn" href="#products">EXPLORE PRODUCTS&nbsp; →</a>
+<div class="trust"><span>Easy Ordering</span><span>Friendly Support</span><span>Many Categories</span></div>
+</div></section>
+<section id="products"><div class="wrap">
+<div class="section-head"><h2>Discover <span class="gold">Our Products</span></h2><p>Browse our sample collection. Replace these with your real products and prices.</p></div>
+<div class="searchrow"><input id="search" type="search" placeholder="Search products..." aria-label="Search products"></div>
+<div class="filters" id="filters">
+<button class="filter active" data-cat="All">All Items</button><button class="filter" data-cat="Fashion">Fashion</button><button class="filter" data-cat="Gadgets">Gadgets</button><button class="filter" data-cat="Home">Home & Living</button><button class="filter" data-cat="Beauty">Beauty</button><button class="filter" data-cat="Accessories">Accessories</button>
+</div>
+<div class="grid" id="grid"></div>
+</div></section>
+<section class="about" id="about"><div class="wrap aboutbox">
+<div><div class="eyebrow">WHY MSA GLOBAL</div><h2>Everything you need.<br><span class="gold">One trusted place.</span></h2><p>MSA GLOBAL is built around convenient shopping, clear product information and helpful customer service. We aim to make discovering products simple and enjoyable.</p></div>
+<div class="promise"><div><b>✦ Curated Choices</b><small>Products across multiple everyday categories.</small></div><div><b>✦ Easy Ordering</b><small>Contact us to confirm stock, price and delivery.</small></div><div><b>✦ Helpful Support</b><small>Questions? Get in touch before ordering.</small></div><div><b>✦ Clear Information</b><small>We confirm details with you before purchase.</small></div></div>
+</div></section>
+<section class="contact" id="contact"><div class="wrap"><div class="section-head"><h2>Let's <span class="gold">Connect</span></h2><p>Ready to order or ask a question? Contact MSA GLOBAL.</p></div>
+<a class="btn" id="whatsapp" href="#" target="_blank" rel="noopener">ORDER ON WHATSAPP</a>
+<p class="notice">Setup needed: add your WhatsApp number in the website code before sharing this page with customers.</p>
+</div></section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> MSA GLOBAL. All rights reserved.</span><span>All You Need • One Place</span></div></footer>
+<script>
+const products = [
+ {name:"Everyday T-Shirt",cat:"Fashion",price:"Add price",emoji:"👕"},
+ {name:"Wireless Earbuds",cat:"Gadgets",price:"Add price",emoji:"🎧"},
+ {name:"Classic Sneakers",cat:"Fashion",price:"Add price",emoji:"👟"},
+ {name:"Smart Watch",cat:"Gadgets",price:"Add price",emoji:"⌚"},
+ {name:"Home Decor",cat:"Home",price:"Add price",emoji:"🏠"},
+ {name:"Beauty Essentials",cat:"Beauty",price:"Add price",emoji:"✨"},
+ {name:"Everyday Backpack",cat:"Accessories",price:"Add price",emoji:"🎒"},
+ {name:"Phone Accessories",cat:"Gadgets",price:"Add price",emoji:"📱"}
+];
+let active = "All";
+const grid = document.getElementById("grid");
+function render(){
+ const q = document.getElementById("search").value.trim().toLowerCase();
+ const filtered = products.filter(p => (active==="All"||p.cat===active) && (p.name.toLowerCase().includes(q)||p.cat.toLowerCase().includes(q)));
+ grid.innerHTML = filtered.length ? filtered.map(p=>`<article class="product"><div class="pimg" aria-hidden="true">${p.emoji}</div><div class="pbody"><div class="tag">${p.cat}</div><h3>${p.name}</h3><div class="price">${p.price}</div><button class="btn secondary" onclick="orderProduct('${p.name.replace(/'/g,"\\'")}')">Ask about product</button></div></article>`).join("") : '<div class="empty">No products found. Try another search.</div>';
+}
+document.querySelectorAll(".filter").forEach(btn=>btn.addEventListener("click",()=>{document.querySelectorAll(".filter").forEach(b=>b.classList.remove("active"));btn.classList.add("active");active=btn.dataset.cat;render()}));
+document.getElementById("search").addEventListener("input",render);
+function orderProduct(name){
+ const phone = "8801XXXXXXXXX"; // Replace with your WhatsApp number, e.g. 88017XXXXXXXX
+ const msg = encodeURIComponent("Hello MSA GLOBAL, I want to know about: "+name);
+ if(phone.includes("X")){alert("Please add your WhatsApp number in the website code first.");return;}
+ window.open("https://wa.me/"+phone+"?text="+msg,"_blank","noopener");
+}
+document.getElementById("whatsapp").addEventListener("click",e=>{const phone="8801XXXXXXXXX";if(phone.includes("X")){e.preventDefault();alert("Please add your WhatsApp number in the website code first.");}else{e.currentTarget.href="https://wa.me/"+phone;}});
+document.getElementById("year").textContent=new Date().getFullYear();
+render();
+</script>
+</body></html>
